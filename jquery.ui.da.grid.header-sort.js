@@ -3,17 +3,8 @@
  * User: max
  * Date: 26.05.11
  * Time: 10:11
- * To change this template use File | Settings | File Templates.
+ * The simplest template for jQuery widgets.
  */
-
-//working class is built by guide - http://phrogz.net/js/classes/OOPinJS.html
-function GridHeaderSort(settings){
-
-    //privates
-	var settings;
-
-    
-}
 
 //plugins is built by boilerplate - http://docs.jquery.com/Plugins/Authoring and http://stefangabos.ro/jquery/jquery-plugin-boilerplate/
 (function($){
