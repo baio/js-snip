@@ -57,6 +57,7 @@ function GridHeaderSort(settings){
                 return this.each(function(){
                      var $this = $(this),
                      data = $this.data("GridHeaderSort");
+                    //
 
                      // unbind events
                      $this.unbind(".GridHeaderSort");
