@@ -6,7 +6,9 @@
  * The simplest template for jQuery widgets.
  */
 
-//plugins is built by boilerplate - http://docs.jquery.com/Plugins/Authoring and http://stefangabos.ro/jquery/jquery-plugin-boilerplate/
+//plugins is built by boilerplate -
+// http://docs.jquery.com/Plugins/Authoring
+// and http://stefangabos.ro/jquery/jquery-plugin-boilerplate/
 (function($){
     $.fn.GridHeaderSort = function(method)
     {
