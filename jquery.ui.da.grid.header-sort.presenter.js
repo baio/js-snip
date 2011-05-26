@@ -3,7 +3,7 @@
  * User: max
  * Date: 26.05.11
  * Time: 10:11
- * The simplest template for jQuery widgets + class as working object
+ * The simplest template for jQuery widgets + presenter
  */
 
 //class is built by guide -
@@ -61,7 +61,7 @@ function GridHeaderSortPresenter($target, settings)
                     //set for element reference to this
                     if (!data)
                     {
-                        $this.data("GridHeaderSort", {target: $this, presenter : new GridHeaderSortPresenter(settings)});
+                        $this.data("GridHeaderSort", {presenter : new GridHeaderSortPresenter($this, settings)});
                     }
 
                 });
